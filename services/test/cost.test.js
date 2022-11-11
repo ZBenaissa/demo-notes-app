@@ -1,4 +1,3 @@
-/*
 import { expect, test } from "vitest";
 import { calculateCost } from "../util/cost";
 
@@ -27,4 +26,4 @@ test("Highest tier", () => {
   const expectedCost = calculateCost(storage);
 
   expect(cost).toEqual(expectedCost);
-});*/
+});
