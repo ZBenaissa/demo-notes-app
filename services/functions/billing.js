@@ -1,5 +1,5 @@
+import handler from "../util/handler"; //Needs to be imported first, debug.js initializes AWS SDK logging
 import Stripe from "stripe";
-import handler from "../util/handler";
 import { calculateCost } from "../util/cost";
 
 export const main = handler(async (event) => {

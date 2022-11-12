@@ -1,5 +1,5 @@
+import handler from "../util/handler"; //Needs to be imported first, debug.js initializes AWS SDK logging
 import * as uuid from "uuid";
-import handler from "../util/handler";
 import dynamoDb from "../util/dynamodb";
 
 export const main = handler(async (event) => {
